@@ -1,0 +1,270 @@
+﻿/*-----------------------------------------
+タブレットレスポンシブ
+-----------------------------------------*/
+テストぎっとはぶ
+
+@media screen and (max-width:919px) {
+#wrapper {
+	box-sizing: border-box;
+}
+/*画像の共通幅設定*/
+img {
+	max-width: 100%;
+	height: auto;
+	width /***/: auto;
+}
+/*ヘッダー部分
+-----------------------------------------*/
+
+
+
+
+
+
+/*メインビジュアル
+-----------------------------------------*/
+.rhino-container {
+	height: auto !important;
+}
+.rhino-item {
+	position: relative !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%! important;
+}
+
+
+/*ナビ
+-----------------------------------------*/
+
+/*ハンバーガーメニュー指定
+-----------------------------------------*/
+#global-nav li{
+	vertical-align:baseline;
+	border-bottom: 1px solid #fff;
+	line-height:28px;
+}
+
+
+.menu {
+	display: block;
+}
+.menu li {
+	width: 100%;
+
+}
+.menu li {
+	border: none;
+}
+.menu li a {
+	display: block;
+	padding: 10px 0 10px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size:75%;
+}
+
+/*標準時消しておく処理*/
+#global-nav {
+	z-index: 11;
+	position: absolute;
+	top: 73px;
+	right: 15px;
+	display: none;
+	width: 355px;
+	border: 1px solid #fff;
+	background: #ccc;
+	padding-top:0;
+}
+
+
+#global-nav li + li{
+	margin-left:0;
+	border-left:1px solid #fff;
+}
+
+
+
+
+
+/*エリア１　レスポンシブ919px以下
+-----------------------------------------*/
+.box1 {
+	width: 100%;
+}
+/*エリア２　レスポンシブ919px以下
+-----------------------------------------*/
+.box2 {
+	width: 100%;
+}
+/*エリア３　レスポンシブ919px以下
+-----------------------------------------*/
+.box3 {
+	width: 100%;
+}
+/*エリア４　レスポンシブ919px以下
+-----------------------------------------*/
+
+.box4 {
+	width: 100%;
+}
+
+/*キャンバス　レスポンシブ919px以下
+-----------------------------------------*/
+.canvas {
+	width: 100%;
+}
+/*お問合せ部分　レスポンシブ919以下
+-----------------------------------------*/
+.contact {
+	width: 100%;
+}
+/*フッターメニュー　レスポンシブ919以下
+-----------------------------------------*/
+#menu-footer {
+	width: 90%;
+	margin: 0 auto;
+}
+#menu-footer li + li {
+	margin-left: 10px;
+}
+}
+
+/*
+-----------------------------------------
+レスポンシブ　740px以下
+-----------------------------------------*/
+
+/*フッターメニュー　ズレ解消
+-----------------------------------------*/
+
+@media screen and (max-width:739px) {
+#menu-footer {
+	width: 100%;
+	margin: 0 auto;
+}
+#menu-footer li + li {
+	margin-left: 5px;
+}
+}
+
+/*-----------------------------------------
+レスポンシブ　650px以下
+-----------------------------------------*/
+
+@media screen and (max-width:649px) {
+/*スマートフォンのみ全体の改行「br」を解除*/
+
+br {
+	display: none;
+}
+/*エリア１　650px以下
+-----------------------------------------*/
+.box1 {
+	height: auto;
+	float: none;
+}
+.box1_atext {
+	padding-top: 60px;
+	margin-top: 0;
+}
+.box1_btn {
+	padding-bottom: 20px;
+}
+/*エリア２　650px以下
+-----------------------------------------*/
+.box2 {
+	height: 100%;
+	padding-bottom: 20px;
+}
+.box2bg {
+	width: 100%;
+}
+/*エリア３　650px以下
+-----------------------------------------*/
+.box3 {
+	float: none;
+}
+.box3inner {
+	float: none;
+}
+.box3_abox {
+	width: 100%;
+}
+
+
+.box3_bbox{
+	background: url(img/box3_a.jpg) no-repeat;
+	background-size: cover;
+	width:100%;
+}
+
+/*エリア４　650px以下
+-----------------------------------------*/
+.box4 {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+}
+.box4_atext {
+	font-size: 130%;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 30px;
+	padding-top: 60px;
+}
+.box4_btn {
+	padding-bottom: 20px;
+}
+/*エリア５　650px以下
+-----------------------------------------*/
+.box5 {
+	margin-bottom: 20px;
+}
+.box5_atext {
+	margin-top: 30px;
+}
+
+/*キャンバス　650px以下
+-----------------------------------------*/
+
+.canvas {
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+/*お問合せ　650以下
+-----------------------------------------*/
+.contact {
+	height: 100%;
+	padding-bottom: 20px;
+}
+/*フッターメニュー　650px以下
+-----------------------------------------*/
+#footerinner {
+	width: 90%;
+}
+#footer-nav {
+	display: none;
+}
+#footer-addr {
+	display: none;
+}
+#footer-copyright {
+	font-size: 0.65rem;
+	text-align: center;
+}
+#footer-sns {
+	float: none;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+-----------------------------------------*/
+
+	
+	
+}
